@@ -4,7 +4,7 @@ const welcomeMessage = document.getElementById("welcomeMessage");
 if (currentUser) {
   welcomeMessage.innerText = `Welcome, ${currentUser}!`;
 } else {
-  alert("No user loged in. Redirecting to Login.");
+  alert("Mister please login first...");
   window.location.href = "login.html";
 }
 function logout() {

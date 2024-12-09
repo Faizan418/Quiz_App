@@ -14,6 +14,6 @@ function login() {
     localStorage.setItem("currentUser", name);
     window.location.href = 'index.html'
   } else {
-    alert("Invalid credentials");
+    alert("Invalid credentials please sign-up");
   }
 }
