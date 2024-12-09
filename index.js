@@ -4,7 +4,7 @@ const welcomeMessage = document.getElementById("welcomeMessage");
 if (currentUser) {
   welcomeMessage.innerText = `Welcome, ${currentUser}!`;
 } else {
-  alert("Sir, please create a accound...");
+  alert("Sir, please signup first then login...");
   window.location.href = "signup.html";
 }
 function logout() {
