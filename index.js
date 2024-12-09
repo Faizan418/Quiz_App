@@ -5,11 +5,11 @@ if (currentUser) {
   welcomeMessage.innerText = `Welcome, ${currentUser}!`;
 } else {
   alert("Sir, please create a accound...");
-  window.location.href = "login.html";
+  window.location.href = "signup.html";
 }
 function logout() {
     localStorage.removeItem("currentUser");
     alert("User logged out successfully");
-    window.location.href = "signup.html";
+    window.location.href = "login.html";
   }
   
